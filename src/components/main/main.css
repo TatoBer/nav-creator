@@ -1,0 +1,71 @@
+.box {
+  padding: 20px;
+  margin: 20px;
+  background-color: #273247;
+  outline: 1px solid #00000009;
+  box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.137);
+  border-radius: 20px;
+  transition: all 0.1s ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box > .box2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box b {
+  letter-spacing: 1.3px;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.137);
+}
+
+.box2 > .box {
+  flex-direction: row;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+
+.box2 > .box:hover {
+  background-color: #2b384e;
+  box-shadow: inset 7px 7px 12px 0px rgba(0, 0, 0, 0.137);
+}
+
+.info-box {
+  position: absolute;
+  bottom: 8px;
+  opacity: .5;
+  letter-spacing: 1px;
+  font-size: 13px;
+  user-select: none;
+}
+
+.box input[type="color"] {
+  height: 30px;
+  width: 30px;
+  border-radius: 7px;
+  outline: none;
+  border: 3px solid #1c2535;
+  background-color: #1c2535;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.box input {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}

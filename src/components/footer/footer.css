@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #0d0c11e7;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 29px rgba(0, 0, 0, 0.479);
+}
+
+footer small {
+    font-size: 15px;
+    opacity: .4;
+    margin: 4px 20px;
+    padding: 0;
+    text-align: center;
+}
+
+footer small a {
+    text-decoration-color: rgba(255, 255, 255, 0.322);
+}
+
+.footer-separator {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 75px;
+    z-index: -10;
+}
