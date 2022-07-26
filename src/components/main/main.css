@@ -140,6 +140,7 @@
   position: absolute;
   top: -35px;
   opacity: .5;
+  pointer-events: none;
 }
 
 .copy-container div span {
