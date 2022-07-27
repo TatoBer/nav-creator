@@ -451,12 +451,20 @@ export default function Main() {
           <div className="box2">
             <div className="box solid-bcg">
               <p className="info-box">SOLID</p>
+              <div className="inputc-div">
               <input type="color" name="color" onChange={changeSolidBg} />
+              </div>
             </div>
             <div className="box gradient-bcg">
               <p className="info-box">RADIAL</p>
+              <div className="inputc-div">
               <input type="color" name="color1" onChange={changeRadialBg1} />
+
+              </div>
+              <div className="inputc-div">
               <input type="color" name="color2" onChange={changeRadialBg2} />
+
+              </div>
             </div>
             <div className="box glass-bcg">
               <p className="info-box">GLASS OPACITY</p>
@@ -493,11 +501,14 @@ export default function Main() {
             </div>
             <div className="box">
               <p className="info-box">COLOR</p>
+              <div className="inputc-div">
               <input
                 type="color"
                 name="color-font"
                 onChange={changeFontColor}
               />
+              </div>
+              
             </div>
           </div>
         </div>

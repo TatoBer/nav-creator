@@ -46,15 +46,28 @@
   user-select: none;
 }
 
+.inputc-div {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.185);
+  margin: 0 30px;
+  margin-bottom: 13px;
+}
+
 .box input[type="color"] {
-  height: 30px;
-  width: 30px;
-  border-radius: 7px;
+  height: 40px;
+  width: 40px;
+  transform: scale(1.5);
+  top: 0;
+  position: absolute;
+  border: none;
   outline: none;
-  border: 3px solid #1c2535;
-  background-color: #1c2535;
-  margin-left: 8px;
-  margin-right: 8px;
 }
 
 .box input {
